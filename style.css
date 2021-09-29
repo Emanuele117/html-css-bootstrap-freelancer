@@ -7,3 +7,43 @@
 .navbar_1 {
     background-color: rgb(64, 64, 87);
 }
+
+.paragrafo {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.img-piccola {
+    height: 200px;
+}
+
+.titolo-carta {
+    text-align: center;
+    color: white;
+}
+
+.card-color {
+    background-color: rgb(0, 128, 128);
+}
+
+.titolo {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container-flex {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.bottone {
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+
+footer {
+    height: 200px;
+    background-color: grey;
+}
