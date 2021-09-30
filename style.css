@@ -191,8 +191,58 @@ footer {
     padding: 30px;
 }
 
-@media screen and (max-width: 1024px) {
-    .navbar_1 {
-        width: 100%;
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        margin-left: 2rem;
+    }
+    .container-flex {
+        width: 150px;
+    }
+    .about_color {
+        height: 400px;
+    }
+    .row {
+        width: 550px;
+        height: 150px;
+        margin-left: 1rem;
+    }
+    .bottone {
+        width: 150px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 12rem;
+    }
+    .row-due, .col-due {
+        width: 500px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container-fluid {
+        margin-left: -2rem;
+        font-size: 18px;
+    }
+    .container-flex {
+        width: 350px;
+    }
+    .about_color {
+        height: 400px;
+    }
+    .row {
+        width: 600px;
+        height: 150px;
+        align-items: center;
+        margin-left: 370px;
+    }
+    .bottone {
+        width: 150px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 35rem;
+    }
+    .row-due, .col-due {
+        width: 600px;
+        font-size: 13px;
     }
 }
