@@ -91,6 +91,10 @@
     background-color: #1ABC9C;
 }
 
+img:hover {
+    opacity: 80%;
+}
+
 .contenitore {
     width: 100vw;
 }
@@ -150,7 +154,45 @@
     border-right: white;
 }
 
-footer {
+.container-basso {
     height: 200px;
-    background-color: grey;
+    background-color: #3A546D;
+}
+
+.social {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.green {
+    color: #22A190;
+}
+
+.contenitore-social {
+    text-align: center;
+}
+
+.paragrafo-main {
+    text-align: center;
+}
+
+.colonna-tre {
+    margin-top: 2rem;
+}
+
+footer {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+.p-footer {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar_1 {
+        width: 100%;
+    }
 }
